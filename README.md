@@ -1,6 +1,6 @@
 # WordPressDeployer
 Deploys multiple wordpress instances and configures MySQL and Apache services automatically.
-This script is intended for test environments but can be used for production if one so wishes.  The WP_PORT variable should be modified if you wish to use a different starting point.
+This script is intended for test environments but can be used for production if one so wishes.  The WP_PORT variable should be modified if you wish to use a different starting point.  The default starting port is 8080 and each site will be assigned the next available port.
 
 #### newWPSite.sh
 Creates WordPress sites.  User must be in the sudoers group to execute this script.
