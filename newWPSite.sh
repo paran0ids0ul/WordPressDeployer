@@ -36,7 +36,7 @@ if [[ -z $(dpkg -l | grep php5-gd) ]]; then
 	echo -n "Continue...";
 	read;
 	apt-get install php5-gd;
-	echo "\n";
+	echo "\n\n";
 fi
 
 # Get the MySQL user
